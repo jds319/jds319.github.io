@@ -1,0 +1,10 @@
+a {color: orange;
+  text-decoration: none;}
+
+a:hover{color: darkgreen;
+font-weight: bolder;}
+
+p{font-family: georgia}
+
+address {color: forestgreen;
+  font-family: monospace;}

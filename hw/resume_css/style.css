@@ -8,3 +8,19 @@ p{font-family: georgia}
 
 address {color: forestgreen;
   font-family: monospace;}
+
+main{color: darkgrey}
+
+#mainp{font-size: 18px}
+
+#mainadress{font-family: georgia;}
+
+.greentext{color: green}
+
+.largetext{font-size: 48px}
+
+.headertext{font-size: 30px}
+
+.darkorangetext{color: darkorange}
+
+.bold{font-weight: bold;}

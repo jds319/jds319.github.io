@@ -1,0 +1,23 @@
+#mainimg {width:150px;}
+
+ body
+   { background: url('../images/cuba.jpg');
+   background-repeat: no-repeat;
+   background-size: cover; }
+
+p {color: #cc33ff;
+  padding: 20px;
+  background: #ffffff88;}
+
+ul {margin-top: 20px;}
+
+ul li {list-style-type: none;
+  display: inline;}
+
+ul li a {padding: 20px;
+  background: url('../images/cuba.jpg');
+  background-size: cover;
+  background-position: bottom;}
+
+ul li a:hover {
+  background-position: top;}

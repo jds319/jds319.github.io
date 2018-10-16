@@ -1,6 +1,8 @@
 #mainimg {width:150px;}
 
- body
+.circle {border-radius: 45px;}
+
+body
    { background: url('../images/cuba.jpg');
    background-repeat: no-repeat;
    background-size: cover; }

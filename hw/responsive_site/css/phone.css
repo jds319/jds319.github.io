@@ -11,5 +11,14 @@ ul li a {width: 100%;
 .left, .right
   {display: block;
   width: 100%;
-  border: 1px solid red;
+  background-size: cover;
   margin-bottom: 20px;}
+
+
+.gallery {text-align: center;}
+
+.gallery img {height:400px;
+              margin: 20 px;
+              border: 4px solid beige;}
+
+.gallery img:hover {border: 4px solid white;}

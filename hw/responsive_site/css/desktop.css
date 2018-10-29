@@ -57,4 +57,11 @@ nav ul li:last-child {clear: left;}
               margin: 20 px;
               border: 4px solid beige}
 
-.gallery img:hover {border: 4px solid white;}
+.about iframe:hover {border: 4px solid white;}
+
+.about {text-align: center;}
+
+.about iframe {margin: 20 px;
+              border: 4px solid beige}
+
+.about iframe:hover {border: 4px solid white;}

@@ -11,3 +11,50 @@
 nav ul li {float: right;}
 
 nav ul li:last-child {clear: left;}
+
+/* Nav links */
+nav li  {
+   display: inline;
+   text-align: left;
+}
+/* Create two equal columns that align next to each other */
+.column2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    background: #f1f1f1;
+    box-sizing: content-box;
+    margin: 1%;
+}
+.column3 {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    box-sizing: content-box;
+    margin: 1.4%;
+}
+.columnLeft {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    box-sizing: content-box;
+    margin: 1.4%;
+}
+.columnRight {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    box-sizing: content-box;
+    margin: 1.4%;
+}
+.gallery {
+  text-align: center;
+}
+.gallery img {
+  width:400px;
+  margin: 20px;
+  border: 4px solid beige;
+}
+.gallery img:hover {
+  border: 4px solid white;
+}

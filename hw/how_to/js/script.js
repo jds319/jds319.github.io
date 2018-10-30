@@ -49,6 +49,12 @@ $('#prev').on('click' , function(){
   $('h2').html('Step ' + currentstep);
 
   if(currentstep != totalsteps){$('#next').show();}
-  
+
   if(currentstep == 1){$('#prev').hide();}
+});
+
+
+$('#finish').on('click', function(){
+  $('.steps li, .controls, #prev').hide();
+  $('end').fadeIn(1000);
 });

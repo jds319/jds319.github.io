@@ -17,6 +17,24 @@ nav ul li:last-child {clear: left;}
         box-sizing: content-box;
         margin: 1.4%;}
 
+.one {display: inline-block;
+      vertical-align: top;
+      width: 30%;
+      box-sizing: content-box;
+      margin: 1.4%;}
+
+.two {display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        box-sizing: content-box;
+        margin: 1.4%;}
+
+.three {display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        box-sizing: content-box;
+        margin: 1.4%;}
+
 .gallery {text-align: center;}
 
 .gallery img {height:400px;

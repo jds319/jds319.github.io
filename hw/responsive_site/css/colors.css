@@ -7,7 +7,7 @@ body
    background-repeat: no-repeat;
    background-size: cover;}
 
-p {color: #cc33ff;
+p {
   padding: 20px;
   background: #ffffff88;}
 
@@ -30,6 +30,10 @@ h1 {color: white;}
 
 .gallery img:hover {border: 4px solid white;}
 
-.left, .right
-  {background: beige:
-  border: 4px solid white;}
+.left {background: #ffffff88; min-height: 200px;}
+
+.right {background: #ffffff88; min-height: 200px;}
+
+footer {
+      color: white;
+      background: #ffffff88;}

@@ -1,5 +1,5 @@
 // variable to track the number of steps
-var totalsteps = 3;
+var totalsteps = 5;
 
 // Track which step should be displayed
 var currentstep = 0;
@@ -53,8 +53,31 @@ $('#prev').on('click' , function(){
   if(currentstep == 1){$('#prev').hide();}
 });
 
-
 $('#finish').on('click', function(){
   $('.steps li, .controls, #prev').hide();
-  $('end').fadeIn(1000);
+  $('.end').fadeIn(1000);
+  $('h1').html('Now go make a burger!');
+});
+
+
+$('.from img').on('mouseover',function()
+{img = $(this).attr('src');
+console.log(img);
+$('.to').html('<img src="' + img + '">');
+});
+
+$('#change').on('click', function(){
+    $('#change').attr('src','images/step3b.jpg');
+  });
+
+$('h1').on('mouseover', function(){
+  $(this).css('color', 'red');
+});
+
+$('h1').on('mouseleave', function(){
+  $(this).css('color', 'black');
+});
+
+$('#end').on('click',function(){
+location.reload();
 });
